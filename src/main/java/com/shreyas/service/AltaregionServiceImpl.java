@@ -40,6 +40,7 @@ public class AltaregionServiceImpl implements AltaregionService{
 		List<Altaregion> altaregions = altaregionDAO.findAll();
 		
 		List<AltaregionDTO> altaregionDTOs = null;
+		System.out.println("...");
 		
 		
 		return altaregionDTOs ;
